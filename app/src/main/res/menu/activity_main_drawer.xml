@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_started"
+            android:icon="@drawable/started"
+            android:title="@string/menu_started" />
+        <item
+            android:id="@+id/nav_finished"
+            android:icon="@drawable/finished"
+            android:title="@string/menu_finished" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/report"
+            android:title="@string/menu_reports" />
+
+        <item
+            android:id="@+id/nav_warehouse"
+            android:icon="@drawable/warehouse"
+            android:title="@string/menu_warehouse" />
+
+        <item
+            android:id="@+id/nav_complaint_not_finished"
+            android:icon="@drawable/complaint"
+            android:title="@string/menu_complaint_not_finished" />
+
+
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/review"
+            android:title="@string/menu_complaint" />
+
+        <item
+            android:id="@+id/nav_placeholder"
+            android:title="" />
+
+
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="@drawable/driver_icon"
+            android:title="@string/menu_driver" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="@string/menu_services" />
+    </group>
+</menu>

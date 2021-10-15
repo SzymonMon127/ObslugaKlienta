@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">OrderManagment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pracownik</string>
+    <string name="nav_header_subtitle">example user</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_complaint">Reklamacje oddane</string>
+    <string name="menu_reports">Raporty</string>
+    <string name="menu_finished">Zrealizowane</string>
+    <string name="menu_started">Rozpoczęte</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Hasło</string>
+    <string name="logout">Wyloguj</string>
+    <string name="menu_warehouse">Magazyn</string>
+    <string name="avainable">Dostępność</string>
+    <string name="product">Produkt</string>
+    <string name="menu_services">Serwis</string>
+    <string name="realized_pdf_text">Raport zamówień zrealizowanych</string>
+    <string name="reports_pdf_text">Raport reklamacji zrealizowanych</string>
+
+    <string name="NEWS_CHANNEL_ID">news</string>
+    <string name="CHANNEL_NEWS">News</string>
+    <string name="CHANNEL_DESCRIPTION">Get informed with new updates</string>
+    <string name="delete_complaint">Skasuj dane reklamacji</string>
+    <string name="delete_realized">Skasuj dane zrealizowanych</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="phoneNumber">784 905 740</string>
+    <string name="Email">PerseuszGamesStudio@gmail.com</string>
+    <string name="EmailText">Adres e-mail:</string>
+    <string name="PhoneText">Numer telefonu:</string>
+    <string name="menu_driver">Dostawa</string>
+    <string name="menu_complaint_not_finished">Nowe reklamacje</string>
+    <string name="driver">Kierowca</string>
+    <string name="loginActivity">Logowanie</string>
+    <string name="imageError">Bład wczytywania</string>
+    <string name="download">Download</string>
+    <string name="null1">\" \"</string>
+</resources>

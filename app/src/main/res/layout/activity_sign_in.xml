@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context=".SignInActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.ObslugaKlienta.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/toolbar"
+            app:popupTheme="@style/Theme.ObslugaKlienta.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+            <EditText
+                android:id="@+id/sing_in_username_et"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:autofillHints="@string/hint_email"
+                android:inputType="text"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/password_background"
+                android:gravity="center"
+                android:hint="@string/hint_email"
+                android:textColorHint="#9d1515"
+                android:textCursorDrawable="@color/colorCursor" />
+
+            <EditText
+                android:id="@+id/sing_in_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints="@string/hint_password"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/password_background"
+                android:gravity="center"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textColorHint="#9d1515"
+                android:textCursorDrawable="@color/colorCursor" />
+
+            <ImageButton
+                android:id="@+id/log_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/loginActivity"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/button_login"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

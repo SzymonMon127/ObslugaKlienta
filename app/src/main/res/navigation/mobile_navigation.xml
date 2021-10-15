@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_started">
+
+
+    <fragment
+        android:id="@+id/nav_started"
+        android:name="com.example.obslugaklienta.ui.started.StartedFragment"
+        android:label="@string/menu_started"
+        tools:layout="@layout/fragment_started" />
+
+    <fragment
+        android:id="@+id/nav_finished"
+        android:name="com.example.obslugaklienta.ui.finished.FinishedFragment"
+        android:label="@string/menu_finished"
+        tools:layout="@layout/fragment_finished" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.obslugaklienta.ui.reports.ReportsFragment"
+        android:label="@string/menu_reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/nav_warehouse"
+        android:name="com.example.obslugaklienta.ui.warehouse.WarehouseFragment"
+        android:label="@string/menu_warehouse"
+        tools:layout="@layout/fragment_warehouse" />
+
+    <fragment
+        android:id="@+id/nav_complaint"
+        android:name="com.example.obslugaklienta.ui.complaint.ComplaintFragment"
+        android:label="@string/menu_complaint"
+        tools:layout="@layout/fragment_complaint" />
+
+    <fragment
+        android:id="@+id/nav_complaint_not_finished"
+        android:name="com.example.obslugaklienta.ui.NotFinishedComplaint.NotFinishedComplaintFragment"
+        android:label="@string/menu_complaint_not_finished"
+        tools:layout="@layout/fragment_not_finished_complaint" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.obslugaklienta.ui.service.ServiceFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_driver"
+        android:name="com.example.obslugaklienta.ui.driver.DriverFragment"
+        android:label="@string/menu_driver"
+        tools:layout="@layout/fragment_driver" />
+</navigation>
